@@ -2,7 +2,7 @@
 <package xmlns="http://schemas.microsoft.com/packaging/2010/07/nuspec.xsd">
     <metadata>
         <id>Moq.Sequences.NoNUnit</id>
-        <version>0.0.2</version>
+        <version>1.0.0</version>
         <title>Moq.Sequences without NUnit dependency</title>
         <authors>Kelly Selden</authors>
         <licenseUrl>https://github.com/kellyselden/Moq-Sequences/blob/master/License.txt</licenseUrl>
