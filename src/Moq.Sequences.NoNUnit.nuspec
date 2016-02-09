@@ -1,0 +1,21 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2010/07/nuspec.xsd">
+    <metadata>
+        <id>Moq.Sequences.NoNUnit</id>
+        <version>0.0.2</version>
+        <title>Moq.Sequences without NUnit dependency</title>
+        <authors>Kelly Selden</authors>
+        <licenseUrl>https://github.com/kellyselden/Moq-Sequences/blob/master/License.txt</licenseUrl>
+        <projectUrl>https://github.com/kellyselden/Moq-Sequences</projectUrl>
+        <requireLicenseAcceptance>false</requireLicenseAcceptance>
+        <developmentDependency>true</developmentDependency>
+        <description>Enforce that method calls are done in a specified sequence</description>
+        <tags>Moq mock</tags>
+        <dependencies>
+            <dependency id="Moq" version="4.0" />
+        </dependencies>
+    </metadata>
+    <files>
+        <file src="bin\Release\Moq.Sequences.dll" target="lib\Moq.Sequences.dll" />
+    </files>
+</package>
